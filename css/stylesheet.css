@@ -1,0 +1,503 @@
+body {
+	background: #fffff9;
+	margin: 0;
+}
+
+.linkTitle {
+	text-decoration: none;
+	font-size: 30px;
+	color: #e0282a;
+	font-weight: bold;
+	font-family: "Book Antiqua";
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.tagline {
+	font-size: 20px;
+	text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    color: #c3282a;
+	font-family: "Book Antiqua"
+}
+
+.container {
+	max-width:900px;
+	margin: 0 auto;
+	background: #fffff9;
+}
+
+.navBar {
+	border-bottom:1px solid #ee5c5e;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.navBar a {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	font-family: "Book Antiqua";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.placeOrder {
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: "Book Antiqua";
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.navBar a:hover {
+	color: #ee5c5e;
+	background-color: #fec9ca;
+}
+
+.placeOrder:hover {
+	color: #ee5c5e;
+	background-color: #fec9ca;
+}
+
+.main {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#veg {
+	padding-bottom: 5px;
+	text-align: center;
+	color: #039903;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#line1 {
+	color: #ee5c5e;
+	font-size: 22px;
+	font-family: "Book Antiqua";
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-right: 50px;
+	padding-left: 0px;
+	margin-bottom: 2px;
+ }
+
+.rslides li {
+    position: absolute;
+    padding-top: 20px;
+	padding-bottom: 0px;
+	padding-right: 50px;
+	padding-left: 50px;
+ }
+
+.rslides img {
+  display: block;
+  height: 500px;
+  width: 800px;
+  }
+
+.rslides_tabs {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+ }
+
+.rslides_tabs li {
+  display: inline;
+  margin-right: 5px;
+  }
+
+.rslides_tabs a {
+  text-indent: -9999px;
+  overflow: hidden;
+  border-radius: 15px;
+  background: #ccc;
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  }
+
+.rslides_here a {
+  background: black;
+  }
+
+#represent {
+	color: black;
+	font-size: 7px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	margin-top: 0px
+}
+
+#today {
+	color: #c3282a;
+	font-size: 24px;
+	font-weight: bold;
+	padding-left: 150px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+}
+
+#rates {
+	color: #c3282a;
+	font-size: 22px;
+	margin-bottom: 0px;
+	padding-left: 150px;
+	font-weight: bold;
+}
+
+#price1 {
+	color: #c3282a;
+	font-size: 18px;
+	font-family: "Book Antiqua";
+	padding-left: 150px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+#price2 {
+	color: #c3282a;
+	font-size: 18px;
+	font-family: "Book Antiqua";
+	padding-left: 150px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+#breakfast1 {
+	color: #ee5c5e;
+	font-size: 14px;
+	padding-left: 150px;
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+#delivery {
+	color: #c3282a;
+	font-size: 25px;
+	padding-top: 20px;
+	padding-left: 150px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+#deliveryTime {
+	color: #ee5c5e;
+	font-size: 16px;
+	padding-top: 0px;
+	padding-left: 150px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#breakfast2 {
+	color: #ee5c5e;
+	font-size: 14px;
+	padding-top: 0px;
+	padding-left: 150px;
+	margin-top: 2px;
+}
+
+footer {
+	color: #ee5c5e;
+	border-top:1px solid #ee5c5e;
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+article {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer a {
+	color: #ee5c5e;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+
+/********************MENU********************/
+
+
+table {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin: auto auto;
+	border-style: solid;
+	border-color: #c3282a;
+	border-width: 1px;
+	background: #fff1f1;
+	box-shadow: 2px 3px 5px 0px #7f6267;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 15px;
+	height: 50px;
+	text-align: center;
+	border-style: solid;
+	border-color: #c3282a;
+	border-width: 1px;
+	/*color: #c3282a;*/
+	font-family: "Book Antiqua";
+}
+
+th {
+	padding: 10px;
+	height: 30px;
+	text-align: center;
+	border-style: solid;
+	border-color: #c3282a;
+	border-width: 1px;
+	background: #ffd0d0;
+	color: #c3282a;
+	font-family: "Book Antiqua";
+}
+
+#bread {
+	padding-left: 50px;
+	font-family: "Book Antiqua";
+	font-size: 15px;
+}
+
+#disclaimer {
+	color: #c3282a;
+	font-size: 18px;
+	padding-top: 15px;
+	font-family: "Book Antiqua";
+	text-align: center;
+}
+
+
+/*******************CONTACT*******************/
+
+
+#heading {
+	padding-bottom: 20px;
+	text-align: center;
+	color: #ee5c5e;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: "Book Antiqua";
+}
+
+.contactMain p {
+	color: #c3282a;
+	font-size: 18px;
+	font-family: "Book Antiqua";
+	text-align: center;
+}
+
+#feedback {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #ee5c5e;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "Book Antiqua";
+}
+
+#contact #form {
+	width: 500px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin: auto auto;
+	border-style: solid;
+	border-color: #c3282a;
+	border-radius: 10px;
+	border-width: 1px;
+	background: #ffdada;
+	box-shadow: 2px 3px 5px 0px #7f6267;
+}
+
+#contact #form input {
+    width: 100%;
+    height: 20px;
+    background: #fffcfc;
+    border-radius: 5px;
+}
+
+#contact #form #name{
+	text-align: left;
+}
+
+#contact #form #email{
+	text-align: left;
+}
+
+#contact #form #subject{
+	text-align: left;
+}
+
+#contact #form #message {
+    width: 100%;
+    height: 100px;
+    background: #fffcfc;
+    border-radius: 5px;
+}
+
+#contact #form #submit {
+	width: 50%;
+	font-family: "Book Antiqua";
+	font-weight: bold;
+	font-size: 18px;
+	color: #c3282a;
+    height: 30px;
+    background: #ff9f9f;
+}
+
+#contact #form #submit:hover {
+	background:#ffeaea;
+}
+
+/********************ORDER********************/
+
+
+.orderMain p {
+	color: #c3282a;
+	font-size: 18px;
+	font-family: "Book Antiqua";
+	text-align: center;
+	font-weight: bold;
+}
+
+#onlineOrder {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #ee5c5e;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "Book Antiqua";
+}
+
+#ordering #orderForm {
+	width: 500px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin: auto auto;
+	border-style: solid;
+	border-color: #c3282a;
+	border-radius: 10px;
+	border-width: 1px;
+	background: #ffdada;
+	box-shadow: 2px 3px 5px 0px #7f6267;
+}
+
+#ordering #orderForm input {
+    width: 100%;
+    height: 20px;
+    background: #fffcfc;
+    border-radius: 5px;
+}
+
+#ordering #orderForm #name{
+	text-align: left;
+}
+
+#ordering #orderForm #email{
+	text-align: left;
+}
+
+#ordering #orderForm #address{
+	text-align: left;
+}
+
+#ordering #orderForm #number{
+	text-align: left;
+}
+
+#ordering #orderForm #quantity{
+	text-align: left;
+}
+
+#ordering #orderForm #cpmments{
+	text-align: left;
+}
+
+#ordering #orderForm #box input{
+	width: 5%;
+	text-align: left;
+	margin-left: 0px;
+}
+
+#ordering #orderForm #orderPlace {
+	width: 50%;
+	font-family: "Book Antiqua";
+	font-weight: bold;
+	font-size: 18px;
+	color: #c3282a;
+    height: 30px;
+    background: #ff9f9f;
+}
+
+#ordering #orderForm #orderPlace:hover {
+	background:#ffeaea;
+}
+
+
+/********************SENT********************/
+
+
+#sent {
+	font-size: 22px;
+	font-family: "Book Antiqua";
+	padding-top: 50px;
+	padding-bottom: 230px;
+	padding-left: 50px;
+}
+
+
+/*******************PLACED*******************/
+
+
+#placed {
+	font-size: 22px;
+	font-family: "Book Antiqua";
+	padding-top: 50px;
+	padding-bottom: 230px;
+	padding-left: 50px;
+}
+
+
+/*****************RESPONSIVE*****************/
+
+
+@media(max-width: 900px);
+

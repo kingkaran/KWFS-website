@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset = "UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<a class="linkTitle" href="index.html">KW FOOD SERVICES</a>
+			<br>
+			<i class="tagline">"made fresh - just for you"</i>
+		</header>
+
+		<nav class="navBar">
+			<a href="index.html">Home</a> 
+			<a href="menu.html">Menu</a> 
+			<a href="contact.html">Contact</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="placeOrder" href="order.html">Place Order</a>
+		</nav>
+
+		<article class="main">
+			<p id="veg">100% Vegetarian</p>
+			<p id="line1">Fresh home cooked Indian food delivered at your doorstep!</p>
+
+			<!-- <div id="rslidesContainer"> -->
+			<ul class="rslides">
+  				<li><img src="images/image1.jpg" alt="" style="width: 800px; height: 500px;"></li>
+  				<li><img src="images/image2.jpg" alt="" style="width: 800px; height: 500px;"></li>
+  				<li><img src="images/image3.jpg" alt="" style="width: 800px; height: 500px;"></li>
+  				<li><img src="images/image4.jpg" alt="" style="width: 800px; height: 500px;"></li>
+  				<li><img src="images/image5.jpg" alt="" style="width: 800px; height: 500px;"></li>
+			</ul>
+			<!-- </div> -->
+
+			<p id="represent">Pictures for representative purposes only.</p>
+			<p id="today">Today's menu: 4 Paratha, Cauliflower subzi, Rajma, Rice, Salad</p>
+			<p id="rates">Rates:</p>
+			<p id="price1">Single meal: $10</p>
+			<p id="price2">Weekly (Mon-Fri): $45</p>
+			<p id="breakfast1">Extra $3 for Breakfast! (Aloo Paratha, Poha, Upma, etc.)</p>
+			<br>
+			<p id="delivery">*Free Delivery*</p>
+			<p id="deliveryTime">Delivery between 7pm and 8pm</p>
+			<p id="breakfast2">Breakfast delivered with previous day's dinner.</p>
+		</article>
+
+		<footer>
+			&copy; 2016 KWFC &nbsp;&nbsp; | &nbsp;&nbsp;Designed by <a>Karan Patel</a>
+		</footer>
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+
+	<script>
+  		$(function() {
+    		$(".rslides").responsiveSlides({
+			    auto: true,             // Boolean: Animate automatically, true or false
+			    speed: 500,             // Integer: Speed of the transition, in milliseconds
+			    timeout: 6000,     // Integer: Time between slide transitions, in milliseconds
+			    pager: true,           // Boolean: Show pager, true or false
+			    nav: false,             // Boolean: Show navigation, true or false
+			    random: false,          // Boolean: Randomize the order of the slides, true or false
+			    pause: false,           // Boolean: Pause on hover, true or false
+			    pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+			    prevText: "Previous",   // String: Text for the "previous" button
+			    nextText: "Next",       // String: Text for the "next" button
+			    maxwidth: 800,           // Integer: Max-width of the slideshow, in pixels
+			    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+			    manualControls: "",     // Selector: Declare custom pager navigation
+			    namespace: "rslides",   // String: Change the default namespace used
+			    before: function(){},   // Function: Before callback
+			    after: function(){}     // Function: After callback
+			});
+		});
+	</script>
+
+</body>
+</html>

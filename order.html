@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset = "UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="ordering">
+	<div class="container">
+		<header class="header">
+			<a class="linkTitle" href="index.html">KW FOOD SERVICES</a>
+			<br>
+			<i class="tagline">"made fresh - just for you"</i>
+		</header>
+
+		<nav class="navBar">
+			<a href="index.html">Home</a> 
+			<a href="menu.html">Menu</a> 
+			<a href="contact.html">Contact</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="placeOrder" href="order.html">Place Order</a>
+		</nav>
+
+		<article class="orderMain">
+			<p id="heading">Online Order</p>
+			<p>We take online orders for next day's meal only.</p>
+      <p>Order must be placed before midnight.</p>
+      <br>
+			<p>Tommorow's menu: Manchurian, Chilli paneer, Sticky rice</p> 
+
+			<p id="onlineOrder">Order</p>
+			<div id="orderForm">
+          		<form method="post" action="php/orderProcess.php">
+              		<p>
+              		<label for="name">Name</label>
+              		<input style="font-size:15px" type="text" name="name" required>
+              		</p>
+              
+              		<p>
+             		<label for="email">Email</label>
+              		<input style="font-size:15px" type="email" name="email" required>
+              		</p>
+
+              		<p>
+             		<label for="address">Address</label>
+              		<input style="font-size:15px" type="text" name="address" required>
+              		</p>
+              		
+              		<p>
+              		<label for="number">Phone number</label>
+              		<input style="font-size:15px" type="tel" name="number" required>
+              		</p>
+
+              		<p>
+              		<label for="quantity">Number of meals</label>
+              		<input style="font-size:15px" type="text" name="quantity" required>
+              		</p>
+
+              		<p>
+              		<label for="cpmments">Additional comments</label>
+              		<input style="font-size:15px" type="text" name="comments" required>
+              		</p>
+
+              		<p id="box">
+              		<label for="breakfast"></label>
+              		<input type="checkbox" name="breakfast" value="YES">Breakfast Included
+              		</p>
+
+            		<p>
+                  	<input id="orderPlace" type="submit" name="orderPlace" value="Place Order">
+            		</p>
+          		</form>
+      		</div>
+      	</article>
+
+		<footer>
+			&copy; 2016 KWFC &nbsp;&nbsp; | &nbsp;&nbsp;Designed by <a>Karan Patel</a>
+		</footer>
+	</div>
+</body>
+</html>

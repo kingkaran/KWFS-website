@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset = "UTF-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="contact">
+	<div class="container">
+		<header class="header">
+			<a class="linkTitle" href="index.html">KW FOOD SERVICES</a>
+			<br>
+			<i class="tagline">"made fresh - just for you"</i>
+		</header>
+
+		<nav class="navBar">
+			<a href="index.html">Home</a> 
+			<a href="menu.html">Menu</a> 
+			<a href="contact.html">Contact</a> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a class="placeOrder" href="order.html">Place Order</a>
+		</nav>
+
+		<article class="contactMain">
+			<p id="heading">Contact</p>
+			<p>Atul and Naina Kantaria</p>
+			<p>Phone: 647-237-9351 / 905-876-0250</p>
+			<p>Email: kwfoodservice@gmail.com</p>
+
+			<p id="feedback">Questions or Feedback?</p>
+			<div id="form">
+          		<form method="post" action="php/contactProcess.php">
+              		<p>
+              		<label for="name">Name</label>
+              		<input style="font-size:15px" type="text" name="name" required>
+              		</p>
+              
+              		<p>
+             		<label for="email">Email</label>
+              		<input style="font-size:15px" type="email" name="email" required>
+              		</p>
+              		
+              		<p>
+              		<label for="subject">Subject</label>
+              		<input style="font-size:15px" type="text" name="subject" required>
+              		
+              		<p>
+            		<label for="message"></label>
+            		<textarea style="font-size:15px" id="message" name="body"></textarea>
+            		</p>
+
+            		<p>
+                  	<input id="submit" type="submit" name="submit" value="Submit">
+            		</p>
+          		</form>
+      		</div>
+      	</article>
+
+		<footer>
+			&copy; 2016 KWFC &nbsp;&nbsp; | &nbsp;&nbsp;Designed by <a>Karan Patel</a>
+		</footer>
+	</div>
+</body>
+</html>
